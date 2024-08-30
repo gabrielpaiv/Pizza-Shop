@@ -3,7 +3,7 @@ import path from "node:path";
 import react from "@vitejs/plugin-react";
 import type { UserConfig } from "vite";
 import { defineConfig } from "vite";
-import type { InlineConfig } from "vitest/node";
+import type { InlineConfig } from "vitest";
 
 export default defineConfig({
   plugins: [react()],
