@@ -34,8 +34,8 @@ export function MonthCanceledOrdersAmountCard() {
                 <span className="text-rose-500 dark:text-rose-400">
                   +{monthCanceledOrdersAmount.diffFromLastMonth}
                 </span>
-              )}{" "}
-              em relação ao mês passado
+              )}
+              % em relação ao mês passado
             </p>
           </>
         ) : (

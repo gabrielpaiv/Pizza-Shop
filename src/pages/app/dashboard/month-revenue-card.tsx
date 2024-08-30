@@ -37,8 +37,8 @@ export function MonthRevenueCard() {
                 <span className="text-rose-500 dark:text-rose-400">
                   {monthRevenue.diffFromLastMonth}
                 </span>
-              )}{" "}
-              em relação ao mês passado
+              )}
+              % em relação ao mês passado
             </p>
           </>
         ) : (
