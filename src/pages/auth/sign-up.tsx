@@ -49,7 +49,7 @@ export function SignUp() {
         },
       });
     } catch {
-      toast.error("Erro ao cadastror restaurante.");
+      toast.error("Erro ao cadastrar restaurante.");
     }
   }
   return (
